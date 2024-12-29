@@ -1,0 +1,80 @@
+topics,prompt,llava-phi3,llava-phi3_time,moondream,moondream_time,smollm2:1.7b-instruct-fp16,smollm2:1.7b-instruct-fp16_time
+Data Analysis and Visualization,Pivot table format change.,"
+Reason: Changing the pivot table format can help improve the data visualization and make it easier for users to analyze their data in Microsoft Excel.
+Step 1: Open your excel file that contains the pivot table you want to change the format of.
+Step 2: Click on the PivotTable Analyze tab from the Excel ribbon menu.
+Step 3: In the PivotTable Analyze tab, click on the Fields option in the Current Data Field List.
+Step 4: Select the field you want to change the format of and then click on it again to highlight it.
+Step 5: Click on the ""Number Format"" button from the drop-down menu next to the field name.
+Step 6: Choose the desired number format for your field, such as currency or date.
+Step 7: Repeat steps 4-6 for any other fields you want to change the format of.
+[END]
+
+Pivot Table layout change.",8.24 seconds,,0.10 seconds,"[START]
+Reason: To demonstrate the key features of Excel that allow you to easily manage and analyze data in your pivot tables, such as the ability to quickly filter, sort, and view multiple pivot tables side by side on one worksheet or across different worksheets and workbooks. This will also help you understand how to tailor a pivot table to meet specific needs for better insights from your data.
+Step: Highlight the entire column containing date information (if it's in a column A) using the ""Select"" method, then select the range of cells that includes both date columns (columns B and C). Go to the ""Insert"" tab and click on the ""Pivot Table"" button. In the new dialogue box, choose the cell where you want your pivot table to be placed and select ""New Worksheet"". Click ""OK"", then drag the column header for Date into the ""Row Labels"" field.
+Step: Drag the column header for Value (column D) into the ""Values"" field. This will create a pivot table with date as row labels and value as data. To easily filter your pivot table by year, click anywhere in your pivot table and go to the ""Analyze"" tab. Click on ""Filter"", then drag the dropdown arrow next to Date and select ""Year"". A dropdown menu with each year will appear. You can now choose a specific year or all years by selecting ""All"" from the dropdown list.
+Step: Now that you have your pivot table filtered by year, go back to the ""Analyze"" tab and click on ""Sort & Filter"". Choose ""Sort Smallest to Largest"" in the Sort By field and select ""Values"" for sort order (ascending or descending). This will arrange your value column from lowest to highest within each year. If you want to make it easier to compare data across years, go back to the ""Data"" tab and click on ""Totals & Centers of Gravity"". Then, drag the dropdown arrow next to Year to create a new field called Year Total or Year Center of Gravity, which will display total or average value for each year.
+Step: To customize your pivot table further and make it more user-friendly, go back to the ""Design"" tab on the ribbon. Click on the ""Summary & Grouping"" group. Here you can choose how often to summarize (e.g., monthly), which items to sum or average, and whether to group them together. You can also add new fields by dragging and dropping an existing field into the ""Fields"" section. This allows for easy inclusion of additional data like region names, product codes, etc. Once your pivot table design is finalized, go back to the ""Analyze"" tab and click on ""Troubleshoot Pivot Table"" if you encounter any issues or errors during these steps.
+[END]",26.42 seconds
+Data Entry and Management,Import CSV breaking columns.,"
+[START]
+Reason: To import data from a comma-separated values (CSV) file into Microsoft Excel, the first step is to open the file and select the ""Data"" tab on the ribbon menu. Then you can use the ""Text Import Wizard"" to break down the columns of data into separate cells.
+Step: Click on the ""Data"" tab in Excel.
+Step: In the ""Data"" tab, click on the ""From Text"" button and select the CSV file you want to import.
+Step: A ""Text Import Wizard"" window will open. Select ""Delimited"" option from the first dropdown and then click ""Next"".
+Step: Under the Delimiters section, select "","" as the delimiter for comma-separated values. Click ""Next"".
+Step: In the next two windows, you can specify the column data types and preview how the imported data will look like in Excel.
+Step: When you are satisfied with the settings, click on the ""Load"" button to import the CSV file into a new worksheet.
+[END]",7.71 seconds,"
+ [0.01, 0.17, 0.99, 0.25]",0.34 seconds,"[START]
+Reason: This step is crucial as it allows the user to import data from a CSV file into their Excel spreadsheet, enabling them to analyze and process the information efficiently.
+Step: Open the Microsoft Excel application by clicking on its icon on your computer desktop or navigating to the Start menu, typing ""Microsoft Excel"" in the search bar, and selecting the application.
+Step: Once Excel is open, navigate to the ""Data"" tab located at the top of the screen. Click on it to reveal a drop-down menu.
+Step: From this drop-down menu, click on ""From Text"" which will initiate the import process for CSV files.
+Step: A dialog box titled ""Import from text file"" will appear prompting you to select the location and file name of your CSV data source. Click ""Open"" or ""Browse"" to specify the path and filename. Excel may automatically detect the file type as a CSV file, so make sure that is selected in the drop-down menu below the dialog box.
+Step: After selecting the file, click on ""Import"" to begin importing the data into your Excel worksheet. This action will create new columns based on the breaking columns specified in the CSV file, if any exist.
+[END]",11.54 seconds
+Calculations and Formulas,Sum only visible rows.,"
+[Start]
+The purpose of this tutorial is to teach you how to create a basic budget in Microsoft Excel using the SUM function and cell references. By following these steps, you will be able to accurately track your income and expenses, making it easier to manage your finances.
+
+Step 1: Open Microsoft Excel and create a new blank workbook.
+Step 2: In row 1, enter different types of income (e.g., salary, freelance work, etc.) in cells A1 through A5.
+Step 3: Enter the amount of money you receive for each type of income in the corresponding cells below the category name (e.g., cell B1).
+Step 4: In row 2, enter different types of expenses (e.g., rent, groceries, etc.) in cells B6 through B10.
+Step 5: Enter the amount you spend on each type of expense in the corresponding cells below the category name (e.g., cell C6).
+Step 6: In row 3, enter ""Income"" in cell D1 and ""Expenses"" in cell E1.
+Step 7: Click on cell F2 and enter the formula ""=D1-E1"". This will calculate your total income minus expenses for that month.
+Step 8: Copy the formula from cell F2 to all cells below it (F3, F4, etc.) by selecting cell F2 and pressing CTRL + SHIFT + Down arrow.
+Step 9: To view a running total of your net balance over time, click on cell F10 and enter the formula ""=F1+F2"". Then copy this formula to all cells below it (F11, F12, etc.).
+Step 10: Your budget is now set up in Excel. You can update your income and expenses each month by simply entering new values into the appropriate cells and copying the formulas down as needed.
+[END]",14.46 seconds,"
+ [0.01, 0.17, 1.0, 0.29]",0.33 seconds,"Excel is an essential tool for managing and analyzing data, making it a valuable skill in the business world. As Microsoft Excel instructor, I'll guide you through a step-by-step process on how to sum only visible rows using keyboard shortcuts. Let's get started!
+
+Reason: Keyboard shortcuts make it easier to complete tasks with less effort.
+Step: Navigate to the ""Home"" tab on your Excel worksheet.
+[END]",4.11 seconds
+Conditional Formatting,Highlight weekends in date column.,"[START]
+Reason: Highlighting weekends can help you easily identify and manage tasks that need to be done on specific days of the week.
+Step: Select the entire cell range containing dates, then click the Home tab > Conditional Formatting > New Rule > Choose ""Use a formula to determine which cells to format"" > Enter =AND(WEEKDAY(A1)>=2, WEE",3.06 seconds,"
+ [START]",0.17 seconds,"[START]
+Reason: To highlight weekends in a given range of dates, you can use Excel's conditional formatting feature. This is especially useful for identifying and scheduling tasks that need to be completed on non-workdays.
+Step: Select the cells containing the dates you want to format using Conditional Formatting. Go to the ""Home"" tab and click on the ""Conditional Formatting"" button.
+Step: In the ""New Rule"" dialog box, select ""Format only cells that contain"" and then choose ""Cell Values"". You can also use a formula in the ""Format values where this formula is true"" field. For example, if you want to highlight weekends (Friday or Saturday), your formula could be =WEEKDAY(A1)=6 or =WEEKDAY(A1)=7. Click on ""Format only cells that contain"" and then choose a formatting style from the dropdown menu.
+Step: To apply this format to all selected dates, click OK in the ""New Rule"" dialog box. Your spreadsheet will now display a highlighted range of dates representing weekends.
+[END]",10.21 seconds
+Data Protection,Lock formulas allow data entry.,"Reason: To prevent accidental changes to the formulas in your Excel spreadsheet while still allowing you to enter and edit the data, use a lock cell feature that locks specific cells containing formulas.
+Step:
+1. Open your Excel spreadsheet and select the cell or range of cells containing the formula you want to protect.
+2. Right-click on the selected cell or range and choose ""Format Cells"" from the context menu.
+3. In the Format Cells dialog box, select the ""Protection"" tab and check the ""Locked"" box next to ""Cell"". Click ""OK"" to apply the formatting change.
+4. Select your entire worksheet by clicking on the top-left corner of the sheet or pressing ""Ctrl + A"".
+5. Go to the ""Review"" tab in the Excel ribbon and click on ""Protect Sheet.""
+6. In the Protect Sheet dialog box, choose whether you want to allow certain users to unprotect the worksheet (by checking the ""Allow certain user to edit cells"" box) or not. If you do, enter their name in the ""User name"" field and click ""OK"". Otherwise, click ""OK"" without making any changes.
+[END]",8.85 seconds,"
+ [START]",0.17 seconds,"[START]
+Reason: Lock formulas enable data manipulation without affecting calculations, ensuring that changes only impact the cell where the formula is located. By locking formulas, you can freely edit other cells in your worksheet while maintaining accurate and up-to-date calculations.
+Step: To lock a formula, select the cell containing the formula you want to protect. Navigate to the ""Formulas"" tab in the ribbon menu at the top of Excel. Click on ""Show Formula"" button located in the ""Error Checking"" group. This will display the actual formula used by the formula bar.
+Step: To lock a formula, click on the check box next to ""Locked"" near the bottom left corner of the formula editing screen. If the checkbox is already checked, deselect it. A green tick symbol should appear in the corner of the locked cell indicating that the protection has been successfully applied.
+[END]",8.40 seconds

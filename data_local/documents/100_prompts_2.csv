@@ -1,0 +1,101 @@
+,Topic,Human-like Prompt,filename,index
+66,Array Formulas,Sum product but not regular.,Niche_Unclear_Excel_Prompts,0
+43,Automation and Macros,"Can I assign a macro to a button for quick execution? If yes, how?",Excel_Help_Prompts,1
+59,Automation and Macros,Can I automate a process to email a report daily using VBA?,Excel_Help_Prompts,2
+42,Automation and Macros,How do I record a macro to automate data entry for a specific template?,Excel_Help_Prompts,3
+44,Automation and Macros,How to write a simple VBA script to display a message box with 'Hello World'?,Excel_Help_Prompts,4
+83,Automation and Macros,Can I create a VBA script to sort data in ascending order in column A every time the sheet opens?,Excel_Help_Prompts_Additional,5
+99,Automation and Macros,Can you show me how to create a custom user form in VBA to input data into a table?,Excel_Help_Prompts_Additional,6
+84,Automation and Macros,How do I debug a macro that stops executing halfway through?,Excel_Help_Prompts_Additional,7
+82,Automation and Macros,What is the process for recording a macro to format a selected range as a table?,Excel_Help_Prompts_Additional,8
+16,Automation and Macros,"Hello, I need to automate a process. I have a report that I generate every day. I want Excel to automatically apply filters, hide certain columns, and format the remaining data as a table. Can I record a macro for this, or do I need to write VBA code?",Excel_Specific_Problems_Prompts,9
+29,Automation and Macros,"Hey, I want to create a button in my Excel sheet that automatically clears all the data from specific cells but keeps the formatting intact. Can you guide me on how to write a macro for this?",Excel_Specific_Problems_Prompts,10
+17,Automation and Macros,"Hi! I’ve written a macro that processes a dataset, but it occasionally crashes and shows a runtime error. It’s hard to figure out where the issue is. How can I debug this macro and make sure it runs smoothly every time?",Excel_Specific_Problems_Prompts,11
+6,Automation and Macros,Button for daily report.,Revised_Short_Conversational_Excel_Prompts,12
+36,Calculations and Formulas,Can you show me an example of the IF function to return 'Yes' if A1 is greater than 50?,Excel_Help_Prompts,13
+35,Calculations and Formulas,How do I use VLOOKUP to find values in the range A2:A10 based on column B?,Excel_Help_Prompts,14
+37,Calculations and Formulas,How to calculate the compound interest using the FV function?,Excel_Help_Prompts,15
+34,Calculations and Formulas,What formula can I use to calculate the total sales in column C?,Excel_Help_Prompts,16
+57,Calculations and Formulas,What is the difference between INDEX and MATCH and how can I use them together?,Excel_Help_Prompts,17
+76,Calculations and Formulas,Can I use the AND function with IF to return 'Pass' if column A is above 50 and column B is below 100?,Excel_Help_Prompts_Additional,18
+75,Calculations and Formulas,"How can I calculate the average of cells in A1:A10, excluding blank cells?",Excel_Help_Prompts_Additional,19
+77,Calculations and Formulas,How do I create an array formula to multiply values in columns A and B and sum the results?,Excel_Help_Prompts_Additional,20
+97,Calculations and Formulas,What is the correct formula to calculate the internal rate of return (IRR) for cash flows in column B?,Excel_Help_Prompts_Additional,21
+74,Calculations and Formulas,What is the formula to calculate the monthly payment for a loan using the PMT function?,Excel_Help_Prompts_Additional,22
+27,Calculations and Formulas,"Hello! I have a column with dates and another column with expenses. I want to calculate the total expenses for a specific month, like January 2024. Is there a formula I can use to filter the data and sum only the relevant rows?",Excel_Specific_Problems_Prompts,23
+13,Calculations and Formulas,"Hi there! I’m stuck with a problem. I have two columns, one with product names and another with sales figures. I want to find the top 3 products by sales. Can I use a formula to achieve this or do I need to sort the data manually every time?",Excel_Specific_Problems_Prompts,24
+12,Calculations and Formulas,"Hi, I’m trying to create a formula that calculates the bonus for employees. If their sales in column B are greater than $10,000, they get 5% of their sales as a bonus, otherwise, it should display 'No Bonus'. Can you help me write this formula?",Excel_Specific_Problems_Prompts,25
+9,Calculations and Formulas,Nested IF function help.,Revised_Short_Conversational_Excel_Prompts,26
+2,Calculations and Formulas,Sum only visible rows.,Revised_Short_Conversational_Excel_Prompts,27
+5,Charts and Graphs,Best chart for comparing profits.,Revised_Short_Conversational_Excel_Prompts,28
+50,Collaboration,How can I track changes made by different users in a shared workbook?,Excel_Help_Prompts,29
+51,Collaboration,Is there a way to co-author a document in real-time with colleagues?,Excel_Help_Prompts,30
+90,Collaboration,How can I share a workbook so multiple users can edit it at the same time?,Excel_Help_Prompts_Additional,31
+91,Collaboration,What are the steps to enable and track changes in a workbook?,Excel_Help_Prompts_Additional,32
+23,Collaboration,"Hey, I’m working on a shared Excel document with my team, but some of the changes are not syncing properly. How can I troubleshoot and fix this issue so everyone sees the latest version of the file?",Excel_Specific_Problems_Prompts,33
+22,Collaboration,"Hi, I’m collaborating with my team on an Excel file, but we’re facing issues with tracking who made which changes. Can you explain how to enable change tracking and view a history of all edits in the workbook?",Excel_Specific_Problems_Prompts,34
+8,Collaboration,Shared workbook sync issues.,Revised_Short_Conversational_Excel_Prompts,35
+46,Conditional Formatting,Can I apply color scales to column B based on the values in column C?,Excel_Help_Prompts,36
+45,Conditional Formatting,How do I highlight cells in column D that are greater than 100?,Excel_Help_Prompts,37
+47,Conditional Formatting,What formula can I use in conditional formatting to highlight duplicate values in a range?,Excel_Help_Prompts,38
+86,Conditional Formatting,Can I use conditional formatting to change the font color of cells with negative values in column F?,Excel_Help_Prompts_Additional,39
+85,Conditional Formatting,How to highlight the top 10% of values in column E with a green fill?,Excel_Help_Prompts_Additional,40
+87,Conditional Formatting,What formula can I use to highlight rows where the value in column B matches 'Pending'?,Excel_Help_Prompts_Additional,41
+18,Conditional Formatting,"Hello, I need to highlight cells in column E that contain specific words like 'Urgent' or 'Critical'. I know I can use conditional formatting, but I’m not sure how to set it up with multiple criteria. Can you walk me through it?",Excel_Specific_Problems_Prompts,42
+19,Conditional Formatting,"Hey there, I’m trying to visualize a trend in my sales data using color scales. The sales values are in column B, and I want to assign shades of green for higher values and red for lower ones. How can I set this up to work automatically as I update the data?",Excel_Specific_Problems_Prompts,43
+67,Conditional Formatting,"Icons for trends, green to red.",Niche_Unclear_Excel_Prompts,44
+3,Conditional Formatting,Highlight weekends in date column.,Revised_Short_Conversational_Excel_Prompts,45
+60,Data Analysis Toolpak,Something about running regression in Excel.,Niche_Unclear_Excel_Prompts,46
+55,Data Analysis and Visualization,Can I create a combo chart with sales and profit data from columns A and B?,Excel_Help_Prompts,47
+39,Data Analysis and Visualization,Can you guide me on adding a trendline to a scatter plot?,Excel_Help_Prompts,48
+38,Data Analysis and Visualization,How do I create a bar chart comparing sales data in columns A and B?,Excel_Help_Prompts,49
+56,Data Analysis and Visualization,How do I group data by month in a pivot table?,Excel_Help_Prompts,50
+54,Data Analysis and Visualization,How to filter column A to show only rows where the value is greater than 50?,Excel_Help_Prompts,51
+40,Data Analysis and Visualization,How to sort the data in column C in descending order?,Excel_Help_Prompts,52
+41,Data Analysis and Visualization,What steps do I need to create a pivot table summarizing sales by region?,Excel_Help_Prompts,53
+79,Data Analysis and Visualization,Can I create a pie chart that dynamically updates as data in range A1:A10 changes?,Excel_Help_Prompts_Additional,54
+95,Data Analysis and Visualization,Can I create a stacked bar chart to show both sales and profit margins?,Excel_Help_Prompts_Additional,55
+81,Data Analysis and Visualization,How do I add custom labels to the X and Y axes of a line chart?,Excel_Help_Prompts_Additional,56
+96,Data Analysis and Visualization,How do I summarize data by quarter in a pivot table?,Excel_Help_Prompts_Additional,57
+94,Data Analysis and Visualization,"How to use Goal Seek to determine the sales value needed to reach a profit of $10,000?",Excel_Help_Prompts_Additional,58
+78,Data Analysis and Visualization,How to use the Filter tool to show rows where column D contains 'Approved'?,Excel_Help_Prompts_Additional,59
+80,Data Analysis and Visualization,"What steps are required to create a bubble chart to visualize data in columns A, B, and C?",Excel_Help_Prompts_Additional,60
+14,Data Analysis and Visualization,"Hey, I’m trying to create a chart to compare the monthly revenue of two stores over the past year. I’ve got the data in columns A, B, and C, but I want the chart to clearly show the differences month by month. What’s the best chart type for this, and how do I create it?",Excel_Specific_Problems_Prompts,61
+15,Data Analysis and Visualization,"Hi, I want to use conditional formatting to highlight the rows where the sales in column C are below the target value in cell D1. Can you guide me step-by-step on how to set this up?",Excel_Specific_Problems_Prompts,62
+26,Data Analysis and Visualization,"Hi, I’m trying to create a pivot table to analyze sales data. I want to group the data by region and show both total sales and average sales for each region. Can you help me set this up step-by-step?",Excel_Specific_Problems_Prompts,63
+0,Data Analysis and Visualization,Pivot table format change.,Revised_Short_Conversational_Excel_Prompts,64
+31,Data Entry and Management,Can I merge cells A1 to C1 and center the text?,Excel_Help_Prompts,65
+32,Data Entry and Management,How can I remove duplicates in column B?,Excel_Help_Prompts,66
+30,Data Entry and Management,How do I format cell A1 as currency with two decimal places?,Excel_Help_Prompts,67
+58,Data Entry and Management,How do I import a CSV file and ensure the data is properly aligned?,Excel_Help_Prompts,68
+33,Data Entry and Management,How to split names in column A into first and last names using a space as a delimiter?,Excel_Help_Prompts,69
+71,Data Entry and Management,Can I use data validation to allow only numbers between 1 and 100 in column C?,Excel_Help_Prompts_Additional,70
+73,Data Entry and Management,How do I quickly remove all extra spaces from text in column B?,Excel_Help_Prompts_Additional,71
+98,Data Entry and Management,"How do I split a column with full addresses into separate columns for street, city, and state?",Excel_Help_Prompts_Additional,72
+70,Data Entry and Management,How to apply text wrapping in cell A1?,Excel_Help_Prompts_Additional,73
+72,Data Entry and Management,What steps are needed to import data from a text file and delimit it by commas?,Excel_Help_Prompts_Additional,74
+11,Data Entry and Management,"Hello! I need help with a weird issue. I’m importing data from a CSV file, but some of the numbers are being converted to dates automatically. For example, '3/4' is displayed as a date instead of a fraction. How can I stop Excel from doing this?",Excel_Specific_Problems_Prompts,75
+10,Data Entry and Management,"Hi, I have a dataset with dates in column A and text descriptions in column B. I want to sort the data by the dates in ascending order, but some cells in column A are blank. How can I handle these blank cells while sorting without messing up the rest of my data?",Excel_Specific_Problems_Prompts,76
+28,Data Entry and Management,"Hi, I’ve got a long list of phone numbers, but they’re in various formats. Some have dashes, some have spaces, and some are just numbers. How can I standardize all the phone numbers in column A to a consistent format like (123) 456-7890?",Excel_Specific_Problems_Prompts,77
+1,Data Entry and Management,Import CSV breaking columns.,Revised_Short_Conversational_Excel_Prompts,78
+48,Data Protection,How can I protect my worksheet with a password but allow editing for certain cells?,Excel_Help_Prompts,79
+49,Data Protection,What steps do I need to follow to enable read-only mode for my Excel workbook?,Excel_Help_Prompts,80
+88,Data Protection,How can I restrict editing for all cells except column A?,Excel_Help_Prompts_Additional,81
+89,Data Protection,Is it possible to allow editing only for specific users in a shared workbook?,Excel_Help_Prompts_Additional,82
+21,Data Protection,"Hello! I need to protect a sheet with a password, but I also want to allow users to format cells and sort data. How can I enable these features while keeping the rest of the sheet protected?",Excel_Specific_Problems_Prompts,83
+20,Data Protection,"Hi, I want to share my workbook with my team, but I want to ensure that no one can change the formulas in column C. At the same time, they should be able to edit other cells. Is there a way to protect only specific cells in Excel?",Excel_Specific_Problems_Prompts,84
+4,Data Protection,Lock formulas allow data entry.,Revised_Short_Conversational_Excel_Prompts,85
+62,Data Validation,"Dropdown list thing, but custom.",Niche_Unclear_Excel_Prompts,86
+65,Importing Data,XML file import? Weird errors.,Niche_Unclear_Excel_Prompts,87
+69,Macros,Automate workbook open? Maybe macro.,Niche_Unclear_Excel_Prompts,88
+68,Pivot Charts,"Graph from pivot, looks wrong.",Niche_Unclear_Excel_Prompts,89
+52,Printing and Exporting,How do I set a specific area of my worksheet to print?,Excel_Help_Prompts,90
+53,Printing and Exporting,What are the steps to export my Excel sheet as a PDF?,Excel_Help_Prompts,91
+93,Printing and Exporting,Can I print only the visible data after applying a filter?,Excel_Help_Prompts_Additional,92
+92,Printing and Exporting,How do I adjust the page orientation to landscape before printing?,Excel_Help_Prompts_Additional,93
+25,Printing and Exporting,"Hello! I’ve created a dashboard with charts and tables, and I want to export it to a PDF. However, the layout gets messed up when I export it. How can I ensure the PDF looks exactly like my Excel dashboard?",Excel_Specific_Problems_Prompts,94
+24,Printing and Exporting,"Hi, I need to print a summary table from my Excel sheet, but the printout is cutting off some columns. I’ve tried adjusting the margins, but it’s not working. How can I fit all the columns onto a single page without shrinking the font too much?",Excel_Specific_Problems_Prompts,95
+7,Printing and Exporting,Fit table to one page print.,Revised_Short_Conversational_Excel_Prompts,96
+63,Solver,Optimize costs? Solver maybe?,Niche_Unclear_Excel_Prompts,97
+64,Statistical Analysis,Histograms... or frequency analysis.,Niche_Unclear_Excel_Prompts,98
+61,What-If Analysis,That tool for seeing different results.,Niche_Unclear_Excel_Prompts,99
